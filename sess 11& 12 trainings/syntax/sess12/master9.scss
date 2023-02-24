@@ -1,0 +1,37 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.box{
+    width: 500px;height: 500px;
+ 
+   margin: 100px auto;
+   >h1{
+    width: 100%;height: auto;
+    font-size: 4em;
+    >strong{
+        position: relative;
+        cursor: pointer;
+        >b{
+            position: relative;
+            z-index: 1;
+            transition: .7s;
+            font-family: 'Architects Daughter', cursive;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 0;left: 0;
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 5px;
+            transition: .7s;
+        }
+        &:hover>b{
+            color: white;
+        }
+        &:hover::before{
+            height: 100%;
+        }
+    }
+   }
+}

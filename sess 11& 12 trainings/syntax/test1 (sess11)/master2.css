@@ -1,0 +1,55 @@
+main {
+  width: 100%;
+  height: auto;
+}
+main > header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+main > header > nav {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+main > header > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > header > nav > ul > li {
+  height: 100%;
+  width: auto;
+  transition: 1s;
+}
+main > header > nav > ul > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > header > nav > ul > li > a:hover {
+  background-color: red;
+  font-size: 40px;
+}
+main > header > figure {
+  width: 30%;
+  height: 100%;
+}
+main > header > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main > header > section {
+  width: auto;
+  height: 100%;
+}
+main > header > section > h1 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+}/*# sourceMappingURL=master2.css.map */

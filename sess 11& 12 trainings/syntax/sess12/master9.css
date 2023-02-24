@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+}
+.box > h1 {
+  width: 100%;
+  height: auto;
+  font-size: 4em;
+}
+.box > h1 > strong {
+  position: relative;
+  cursor: pointer;
+}
+.box > h1 > strong > b {
+  position: relative;
+  z-index: 1;
+  transition: 0.7s;
+  font-family: "Architects Daughter", cursive;
+}
+.box > h1 > strong::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 5px;
+  transition: 0.7s;
+}
+.box > h1 > strong:hover > b {
+  color: white;
+}
+.box > h1 > strong:hover::before {
+  height: 100%;
+}/*# sourceMappingURL=master9.css.map */

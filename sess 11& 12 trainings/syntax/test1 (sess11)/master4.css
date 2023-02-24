@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.box > div {
+  margin: 100px auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  border: 3px solid rgb(68, 16, 212);
+}
+.box > div:nth-of-type(1) {
+  top: 0.0000029154px;
+  left: 26.64px;
+}
+.box > div:nth-of-type(2) {
+  top: 0.0000098611px;
+  left: 49.72048px;
+}
+.box > div:nth-of-type(3) {
+  top: 0.0000250159px;
+  left: 72.8494656576px;
+}
+.box > div:nth-of-type(4) {
+  top: 0.0000564099px;
+  left: 96.0322984158px;
+}
+.box > div:nth-of-type(5) {
+  top: 0.0001192521px;
+  left: 119.2749079174px;
+}
+.box > div:nth-of-type(6) {
+  top: 0.0002420179px;
+  left: 142.5838767772px;
+}
+.box > div:nth-of-type(7) {
+  top: 0.0004775234px;
+  left: 165.9665124879px;
+}
+.box > div:nth-of-type(8) {
+  top: 0.0009229687px;
+  left: 189.4309272431px;
+}
+.box > div:nth-of-type(9) {
+  top: 0.001756062px;
+  left: 212.9861265511px;
+}
+.box > div:nth-of-type(10) {
+  top: 0.0032998765px;
+  left: 236.6421076069px;
+}
+.box > div:nth-of-type(11) {
+  top: 0.0061389025px;
+  left: 260.4099684966px;
+}
+.box > div:nth-of-type(12) {
+  top: 0.0113260809px;
+  left: 284.3020294274px;
+}
+.box > div:nth-of-type(13) {
+  top: 0.0207511481px;
+  left: 308.331967308px;
+}
+.box > div:nth-of-type(14) {
+  top: 0.0377943757px;
+  left: 332.5149651479px;
+}
+.box > div:nth-of-type(15) {
+  top: 0.0684842591px;
+  left: 356.86787791px;
+}
+.box > div:nth-of-type(16) {
+  top: 0.1235434849px;
+  left: 381.4094166255px;
+}
+.box > div:nth-of-type(17) {
+  top: 0.2219980446px;
+  left: 406.1603527843px;
+}
+.box > div:nth-of-type(18) {
+  top: 0.3975329171px;
+  left: 431.1437452329px;
+}
+.box > div:nth-of-type(19) {
+  top: 0.7096669075px;
+  left: 456.3851920579px;
+}
+.box > div:nth-of-type(20) {
+  top: 1.2633721863px;
+  left: 481.9131102074px;
+}
+.box > div:nth-of-type(21) {
+  top: 2.2434736509px;
+  left: 507.7590459034px;
+}
+.box > div:nth-of-type(22) {
+  top: 3.9748864062px;
+  left: 533.9580192383px;
+}
+.box > div:nth-of-type(23) {
+  top: 7.0279755156px;
+  left: 560.5489067168px;
+}
+.box > div:nth-of-type(24) {
+  top: 12.4026362917px;
+  left: 587.5748659245px;
+}
+.box > div:nth-of-type(25) {
+  top: 21.8495822416px;
+  left: 615.0838069601px;
+}
+.box > div:nth-of-type(26) {
+  top: 38.4305712213px;
+  left: 643.1289157825px;
+}
+.box > div:nth-of-type(27) {
+  top: 67.4943809795px;
+  left: 671.7692351885px;
+}
+.box > div:nth-of-type(28) {
+  top: 118.3756150314px;
+  left: 701.0703097674px;
+}
+.box > div:nth-of-type(29) {
+  top: 207.3493019587px;
+  left: 731.104901879px;
+}
+.box > div:nth-of-type(30) {
+  top: 362.7656832495px;
+  left: 761.9537864739px;
+}
+.box > div:nth-of-type(31) {
+  top: 633.9675063106px;
+  left: 793.7066334404px;
+}
+.box > div:nth-of-type(32) {
+  top: 1106.765584506px;
+  left: 826.4629871149px;
+}
+.box > div:nth-of-type(33) {
+  top: 1930.2784860499px;
+  left: 860.333353656px;
+}
+.box > div:nth-of-type(34) {
+  top: 3363.4525875604px;
+  left: 895.4404081606px;
+}
+.box > div:nth-of-type(35) {
+  top: 5855.6458147215px;
+  left: 931.9203347072px;
+}
+.box > div:nth-of-type(36) {
+  top: 10186.1394895739px;
+  left: 969.9243139652px;
+}
+.box > div:nth-of-type(37) {
+  top: 17705.5411529659px;
+  left: 1009.6201746191px;
+}
+.box > div:nth-of-type(38) {
+  top: 30753.2798524835px;
+  left: 1051.1942266481px;
+}
+.box > div:nth-of-type(39) {
+  top: 53379.2925134337px;
+  left: 1094.8532964866px;
+}
+.box > div:nth-of-type(40) {
+  top: 92590.9543219096px;
+  left: 1140.8269862957px;
+}/*# sourceMappingURL=master4.css.map */

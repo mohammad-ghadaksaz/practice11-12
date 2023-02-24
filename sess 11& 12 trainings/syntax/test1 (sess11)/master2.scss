@@ -1,0 +1,54 @@
+main{
+    width: 100%;
+    height: auto;
+    >header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        >nav{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            >ul{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                >li{
+                    height: 100%;
+                    width: auto;
+                    transition: 1s;
+                    >a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        &:hover{
+                            background-color: red;
+                            font-size: 40px;
+                        }
+
+                        }
+                       
+                    }
+                }
+            }
+            >figure{
+                width: 30%;
+                height: 100%;
+                >img{
+                    width: 100%;height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            >section{
+                width: auto;
+                height: 100%;
+                >h1{
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    font-size: 30px;
+                }
+            }
+        }
+    }

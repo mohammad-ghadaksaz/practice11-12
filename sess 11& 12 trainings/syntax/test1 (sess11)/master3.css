@@ -1,0 +1,19 @@
+.bt, .headetop > nav, .headetop {
+  border: 1px solid red;
+}
+
+.headetop {
+  width: 100%;
+  height: 100px;
+}
+.headetop > nav {
+  width: 20%;
+  height: 100%;
+}
+.headetop > section {
+  width: 20%;
+  height: 50%;
+  color: green;
+  font-size: 200px;
+  font-family: fantasy;
+}/*# sourceMappingURL=master3.css.map */

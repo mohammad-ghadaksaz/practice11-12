@@ -1,0 +1,31 @@
+
+// if and extend sass practice ! 
+
+$num : 100 ;
+.bt{
+    border: 1px solid red;
+}
+.headetop{
+    width: 100%;
+    height: 100px;
+    @if($num>1){
+        @extend .bt
+    }
+    >nav{
+        width: 20%;height: 100%;
+        @extend .bt
+    }
+    >section{
+        width: 20%;
+        height: 50%;
+        @if($num>200){
+            @extend .bt
+        }
+        @if($num<200){
+            color: green;
+            font-size: 200px;
+            font-family: fantasy;
+        }
+    }
+}
+
